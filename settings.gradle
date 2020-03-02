@@ -1,0 +1,2 @@
+rootProject.name='SeniorProject-ThinkNSay'
+include ':app'
