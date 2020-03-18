@@ -21,19 +21,60 @@
             android:text="SELECT"
             android:textSize="45sp" />
 
-        <LinearLayout
+        <Spinner
+            android:id="@+id/spinnerSelectPlayer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#EFF1F3"
+            android:entries="@array/Spinner_items"
+            android:text="select..." />
+
+        <Button
+            android:id="@+id/button_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EASY" />
+
+        <Button
+            android:id="@+id/button_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEDIUM" />
+
+        <Button
+            android:id="@+id/button_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARD" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <Spinner
-                android:id="@+id/spinnerSelectPlayer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:background="#EFF1F3"
-                android:entries="@array/Spinner_items"
-                android:text="select..." />
+            <ImageButton
+                android:id="@+id/button_backward"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/triangle" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:text="TextView"
+                tools:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/button_forward"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/forward" />
         </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>

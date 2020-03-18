@@ -1,19 +1,19 @@
 <resources>
     <string name="app_name">SeniorProject-ThinkNSay</string>
     <string-array name="Spinner_items">
-        <item>TWO</item>
-        <item>THREE</item>
-        <item>FOUR</item>
-        <item>FIVE</item>
-        <item>SIX</item>
-        <item>SEVEN</item>
-        <item>EIGHT</item>
-        <item>NINE</item>
-        <item>TEN</item>
-        <item>ELEVEN</item>
-        <item>TWELVE</item>
-        <item>THIRTEEN</item>
-        <item>FOURTEEN</item>
-        <item>FIFTHTEEN</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
     </string-array>
 </resources>
