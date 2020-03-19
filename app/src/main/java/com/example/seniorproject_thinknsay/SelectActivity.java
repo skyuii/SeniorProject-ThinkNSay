@@ -39,7 +39,7 @@ public class SelectActivity extends AppCompatActivity {
     }
 
     public void openPlayScreen(){
-        Intent intent = new Intent(this,PlayScreen.class);
+        Intent intent = new Intent(this,SelectCategoryScreen.class);
         startActivity(intent);
     }
 }
