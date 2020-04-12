@@ -56,7 +56,7 @@
             <ImageButton
                 android:id="@+id/button_backward"
                 android:layout_width="250px"
-                android:layout_height="250px"
+                android:layout_height="103dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/triangle" />
 

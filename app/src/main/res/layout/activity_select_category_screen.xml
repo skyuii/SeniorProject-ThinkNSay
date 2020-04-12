@@ -39,15 +39,20 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="FRUITS" />
+                <ImageButton
+                    android:id="@+id/butt_fruit_cate"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_fruit_bag_96" />
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="COLOR" />
+                <ImageButton
+                    android:id="@+id/butt_color_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_swatch_80" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -55,15 +60,20 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="PLACES" />
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_taj_mahal_96" />
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="VEGETABLES" />
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_vegetables_bag_96" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -71,15 +81,20 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="BODY" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_bodybuilder_96" />
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="OCCUPATION" />
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_engineer_96" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -87,15 +102,20 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="COUNTRY" />
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_country_96" />
 
-                <Button
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:text="COUNTRY in ASIA"></Button>
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_asia_96" />
+
             </LinearLayout>
 
         </LinearLayout>
