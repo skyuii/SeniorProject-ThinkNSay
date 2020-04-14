@@ -61,18 +61,18 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/icons8_taj_mahal_96" />
-
-                <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/butt_veget_cate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/icons8_vegetables_bag_96" />
+
+                <ImageButton
+                    android:id="@+id/butt_place_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_taj_mahal_96" />
 
             </LinearLayout>
 
@@ -82,14 +82,14 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton6"
+                    android:id="@+id/butt_body_cate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/icons8_bodybuilder_96" />
 
                 <ImageButton
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/butt_occu_cate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -103,19 +103,79 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton8"
+                    android:id="@+id/butt_europe_cate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/icons8_country_96" />
+                    app:srcCompat="@drawable/icons8_europe_96" />
 
                 <ImageButton
-                    android:id="@+id/imageButton9"
+                    android:id="@+id/butt_asia_cate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/icons8_asia_96" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/butt_fam_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_defend_family_96" />
+
+                <ImageButton
+                    android:id="@+id/butt_animal_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_sheep_96" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/butt_holiday_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_sparkler_96" />
+
+                <ImageButton
+                    android:id="@+id/butt_sport_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_sports_mode_96" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/butt_galaxy_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_galaxy_96" />
+
+                <ImageButton
+                    android:id="@+id/butt_drinks_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_guinness_beer_96" />
             </LinearLayout>
 
         </LinearLayout>
